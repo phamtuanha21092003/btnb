@@ -1,0 +1,11 @@
+﻿@model IEnumerable<btvn.Models.Member>
+
+
+<ol>
+
+    @foreach (var item in Model)
+    {
+        <li>@item.MemberName (@item.YearOfBirth)</li>
+    }
+
+</ol>
